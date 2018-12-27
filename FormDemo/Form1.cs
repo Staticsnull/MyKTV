@@ -58,6 +58,7 @@ namespace FormDemo
             ListViewItem lvi =  this.listView1.SelectedItems[0];
             this.listView1.Items.Remove(lvi);
             this.listView1.Items.Insert(1, lvi);
+            //添加事件
         }
 
         private void button1_MouseClick(object sender, MouseEventArgs e)
