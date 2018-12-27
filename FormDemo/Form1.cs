@@ -59,6 +59,7 @@ namespace FormDemo
             this.listView1.Items.Remove(lvi);
             this.listView1.Items.Insert(1, lvi);
             //添加事件
+            //事件刷新
         }
 
         private void button1_MouseClick(object sender, MouseEventArgs e)
